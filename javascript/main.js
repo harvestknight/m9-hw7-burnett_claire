@@ -11,3 +11,6 @@ function changeColor () {
 
 li1.addEventListener('mouseenter', changeColor);
 li2.addEventListener('mouseenter', changeColor);
+
+li1.addEventListener('mouseleave', changeColor);
+li2.addEventListener('mouseleave', changeColor);
