@@ -274,7 +274,16 @@ footer {
 #ordertab {
     background-color: #FC713A;
     border-radius: 8px;
+    display: inline;
 }
+
+.hide-div {
+    display:none;
+    /*height: 0;
+    overflow: hidden;
+    transition: height 1s*/
+}
+
 /* END DESKTOP MENU */
 
 
