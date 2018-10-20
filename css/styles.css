@@ -199,7 +199,7 @@ footer {
 
 .menu li:hover {
     display: block;    
-    background: #C0D72F; 
+    background: #FC713A; 
     padding: 4% 0 4% 0; 
     border-bottom: #dddddd 1px solid;
 }
@@ -211,7 +211,7 @@ footer {
 }
 
 .menu ul li a:hover {  
-    color: #181818; 
+    color: #ffffff; 
     text-decoration: none;
 }
 
@@ -262,7 +262,7 @@ footer {
 #desktop-menu ul li a:hover, #desktop-menu ul li a:active {
     /* hover is when you just move your mouse over it, active is when you push down */
     color: #F1F1F1;
-    text-decoration: overline;
+    text-decoration: none;
     text-decoration-color: #F1F1F1;
 }
 
@@ -285,6 +285,7 @@ footer {
 }
 
 .change-color {
+  color: #ffffff;
   background-color: #3E3E3E;
   transition: background-color 1s;
 }
