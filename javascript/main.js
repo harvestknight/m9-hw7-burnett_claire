@@ -1,28 +1,4 @@
 //change nav background color
-//var li1 = document.getElementsByTagName('li')[3];
-//var li2 = document.getElementsByTagName('li')[4];
-//var li3 = document.getElementsByTagName('li')[8];
-//var li4 = document.getElementsByTagName('li')[9];
-
-//function changeColor () {
-   //li2.classList.add('change-color');   
-//};
-
-
-//li1.addEventListener('mouseenter', changeColor);
-//li2.addEventListener('mouseenter', changeColor);
-//li3.addEventListener('mouseenter', changeColor);
-//li4.addEventListener('mouseenter', changeColor);
-
-//li1.addEventListener('mouseleave', changeColor);
-//li2.addEventListener('mouseleave', changeColor);
-//li3.addEventListener('mouseleave', changeColor);
-//li4.addEventListener('mouseleave', changeColor);
-
-//change section background color
-//var storyBlock = document.getElementsByClassName('col-sm-6 col-md-4');
-
-//console.log(storyBlock);
 
 var link = document.getElementsByTagName('a');
 
@@ -49,4 +25,43 @@ for (i=0; i < link.length; i++) {
 for (i=0; i < link.length; i++) {
     link[9].addEventListener('mouseenter', changeColor);
     link[9].addEventListener('mouseleave', changeColor);
+};
+
+
+
+//change section background color
+var storyBlock = document.getElementsByTagName('section');
+
+function changeOpacity () {
+    this.classList.toggle('opacity');
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[1].addEventListener('mouseenter', changeOpacity);
+    storyBlock[1].addEventListener('mouseleave', changeOpacity);
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[2].addEventListener('mouseenter', changeOpacity);
+    storyBlock[2].addEventListener('mouseleave', changeOpacity);
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[3].addEventListener('mouseenter', changeOpacity);
+    storyBlock[3].addEventListener('mouseleave', changeOpacity);
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[4].addEventListener('mouseenter', changeOpacity);
+    storyBlock[4].addEventListener('mouseleave', changeOpacity);
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[5].addEventListener('mouseenter', changeOpacity);
+    storyBlock[5].addEventListener('mouseleave', changeOpacity);
+};
+
+for (i=0; i < storyBlock.length; i++) {
+    storyBlock[6].addEventListener('mouseenter', changeOpacity);
+    storyBlock[6].addEventListener('mouseleave', changeOpacity);
 };

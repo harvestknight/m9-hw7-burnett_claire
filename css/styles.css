@@ -336,6 +336,11 @@ footer {
     object-fit: cover;
 }
 
+.opacity {
+    opacity: 0.7;
+    transition: opacity 1s;
+}
+
 
 /* MEDIA QUERIES */
 
