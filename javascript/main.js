@@ -25,8 +25,16 @@ for (i=0; i < link.length; i++) {
 for (i=0; i < link.length; i++) {
     link[9].addEventListener('mouseenter', changeColor);
     link[9].addEventListener('mouseleave', changeColor);
+    link[9].addEventListener('click', showDiv);
 };
 
+
+//location dropdown
+var bioDiv = document.getElementsByClassName('hide-div');
+
+function showDiv() {
+    this.nextElementSibling.classList.toggle('show-div');
+};
 
 
 //change section background color
@@ -65,3 +73,4 @@ for (i=0; i < storyBlock.length; i++) {
     storyBlock[6].addEventListener('mouseenter', changeOpacity);
     storyBlock[6].addEventListener('mouseleave', changeOpacity);
 };
+

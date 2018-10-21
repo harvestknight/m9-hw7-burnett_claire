@@ -278,10 +278,13 @@ footer {
 }
 
 .hide-div {
-    display:none;
-    /*height: 0;
-    overflow: hidden;
-    transition: height 1s*/
+  display: none;
+}
+
+.show-div {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
 }
 
 .change-color {
