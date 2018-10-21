@@ -282,8 +282,7 @@ footer {
 }
 
 .show-div {
-  display: flex;
-  flex-direction: column;
+  display: inline;
   width: 40px;
 }
 
