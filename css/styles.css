@@ -249,7 +249,9 @@ footer {
 
 #desktop-menu ul li {
     display: inline;
-    padding: 3%;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #desktop-menu ul li a:link, #desktop-menu ul li a:visited {
@@ -278,13 +280,16 @@ footer {
 }
 
 .hide-div {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 1s
 }
 
 .show-div {
-  display: inline;
-  width: 40px;
+  height: 100px;
+  transition: height 1s
 }
+
 
 .change-color {
   color: #ffffff;
