@@ -296,9 +296,9 @@ footer {
 
 
 .change-color {
-  color: #ffffff;
-  background-color: #3E3E3E;
-  transition: background-color 1s;
+  color: #ffffff !important;
+  background-color: #3E3E3E !important;
+  transition: background-color 1s !important;
 }
 
 /* END DESKTOP MENU */
