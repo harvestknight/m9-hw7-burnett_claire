@@ -282,16 +282,16 @@ footer {
 }
 
 .hide-div {
-  height: 0;
-  overflow: hidden;
-  transition: height 1s;
-  padding-top: 25px;
+ height: 0;
+ overflow: hidden;
+ text-align: center;
+ background-color: #333;
+ transition: all 1s;
 }
 
 .show-div {
-  height: 100px;
-  transition: height 1s;
-  padding-top: 25px;
+ padding-top: 60px;
+ height: 160px;
 }
 
 

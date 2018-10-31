@@ -15,10 +15,14 @@ console.log(link)
 
 
 //location dropdown
-var bioDiv = document.getElementsByClassName('hide-div');
+var locationLink = document.querySelectorAll('.locations-tab');
 
 function showDiv() {
     this.nextElementSibling.classList.toggle('show-div');
+};
+
+for (i=0; i < link.length; i++) {
+ locationLink[i].addEventListener('click', showDiv);
 };
 
 
