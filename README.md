@@ -14,3 +14,7 @@ RESOURCES
 -I tried a bunch of websites that didn't help
 -Lots of troubleshooting with classmates
 -CSS Opacity: https://www.w3schools.com/cssref/css3_pr_opacity.asp
+
+RESOURCES ROUND TWO
+-Advice from professor
+-When Using !important is The Right Choice: https://css-tricks.com/when-using-important-is-the-right-choice/
