@@ -18,3 +18,5 @@ RESOURCES
 RESOURCES ROUND TWO
 -Advice from professor
 -When Using !important is The Right Choice: https://css-tricks.com/when-using-important-is-the-right-choice/
+-HTML Validation: https://validator.w3.org/
+-CSS Validation: http://jigsaw.w3.org/css-validator/
